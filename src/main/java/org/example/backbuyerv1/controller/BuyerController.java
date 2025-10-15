@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(
         origins = {
                 "http://localhost:4200",
-                "https://refink-front.cleverapps.io" // <-- ton app Angular hébergée
+                "https://app-8c64c9fb-207f-4c42-af30-132121a3c14b.cleverapps.io" // <-- ton app Angular hébergée
         },
         methods = {RequestMethod.GET, RequestMethod.POST}
 )
